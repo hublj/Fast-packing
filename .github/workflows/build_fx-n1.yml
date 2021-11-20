@@ -94,7 +94,7 @@ jobs:
         sudo chmod -R 777 /opt/openwrt_packit/output
         cd /opt/openwrt_packit/output
         sudo pigz -9 -p 2 -k *
-        rm -rf openwrt-update-amlogic.gz openwrt_s905d_n1_R21.11.11_k5.14.20-flippy-67+.img openwrt_s905d_n1_R21.11.11_k5.15.3-flippy-67+.img openwrt_s905d_n1_R21.11.11_k5.4.160-flippy-67+o.img openwrt_s905d_n1_R21.11.11_k5.10.80-flippy-67+.img
+        rm -rf openwrt-update-amlogic.gz openwrt_s905d_n1_R21.11.20_k5.14.20-flippy-67+.img openwrt_s905d_n1_R21.11.20_k5.15.3-flippy-67+.img openwrt_s905d_n1_R21.11.20_k5.4.160-flippy-67+o.img openwrt_s905d_n1_R21.11.20_k5.10.80-flippy-67+.img
         echo "::set-output name=status::success"
 
     - name: Check Files4
