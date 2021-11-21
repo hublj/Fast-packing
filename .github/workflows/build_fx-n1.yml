@@ -28,13 +28,13 @@ jobs:
       matrix:
         include:
           - flippy_name: 67+o
-            release_name: N1-hublj-mini-67+o.img
+            release_name: openwrt_s905d_n1_k5.4-67+o.img
           - flippy_name: 67+
-            release_name: N1-hublj-mini-67+.img
+            release_name: openwrt_s905d_n1_k5.14-67+.img
           - flippy_name: 67++
-            release_name: N1-hublj-mini-67+.img
+            release_name: openwrt_s905d_n1_k5.10-67++.img
           - flippy_name: 67+++
-            release_name: N1-hublj-mini-67+.img
+            release_name: openwrt_s905d_n1_k5.15-67+++.img
 
 
 
